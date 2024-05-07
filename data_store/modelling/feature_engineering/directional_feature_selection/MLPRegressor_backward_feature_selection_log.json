@@ -1,0 +1,182 @@
+[
+    {
+        "num_of_features": 11,
+        "feature_removed": "TempDiff",
+        "r2": 0.9962766425053543,
+        "RMSE": 0.011321529567274743,
+        "MSE": 0.0001282004400853221,
+        "MAE": 0.008746073836941566,
+        "all_features": [
+            "Enrichment",
+            "Pitch",
+            "FuelRad",
+            "FuelTemp",
+            "ModTemp",
+            "ModDens",
+            "vmvf",
+            "VolUranium",
+            "U_vmvf",
+            "TempRatio",
+            "FuelDist"
+        ]
+    },
+    {
+        "num_of_features": 10,
+        "feature_removed": "FuelTemp",
+        "r2": 0.996910642635377,
+        "RMSE": 0.010275453418882287,
+        "MSE": 0.00010630772991288187,
+        "MAE": 0.007930867803086595,
+        "all_features": [
+            "Enrichment",
+            "Pitch",
+            "FuelRad",
+            "ModTemp",
+            "ModDens",
+            "vmvf",
+            "VolUranium",
+            "U_vmvf",
+            "TempRatio",
+            "FuelDist"
+        ]
+    },
+    {
+        "num_of_features": 9,
+        "feature_removed": "Pitch",
+        "r2": 0.9968969110400409,
+        "RMSE": 0.010337850186282369,
+        "MSE": 0.00010689857152254554,
+        "MAE": 0.007877986990302347,
+        "all_features": [
+            "Enrichment",
+            "FuelRad",
+            "ModTemp",
+            "ModDens",
+            "vmvf",
+            "VolUranium",
+            "U_vmvf",
+            "TempRatio",
+            "FuelDist"
+        ]
+    },
+    {
+        "num_of_features": 8,
+        "feature_removed": "U_vmvf",
+        "r2": 0.9973994509277826,
+        "RMSE": 0.00944829372093658,
+        "MSE": 8.960972298953456e-05,
+        "MAE": 0.0071495928320836665,
+        "all_features": [
+            "Enrichment",
+            "FuelRad",
+            "ModTemp",
+            "ModDens",
+            "vmvf",
+            "VolUranium",
+            "TempRatio",
+            "FuelDist"
+        ]
+    },
+    {
+        "num_of_features": 7,
+        "feature_removed": "ModDens",
+        "r2": 0.9964795795029493,
+        "RMSE": 0.010995145402111103,
+        "MSE": 0.00012126561694305151,
+        "MAE": 0.008347957057832887,
+        "all_features": [
+            "Enrichment",
+            "FuelRad",
+            "ModTemp",
+            "vmvf",
+            "VolUranium",
+            "TempRatio",
+            "FuelDist"
+        ]
+    },
+    {
+        "num_of_features": 6,
+        "feature_removed": "FuelRad",
+        "r2": 0.9968617036499587,
+        "RMSE": 0.01037329645980157,
+        "MSE": 0.0001079757792332285,
+        "MAE": 0.007844048540204738,
+        "all_features": [
+            "Enrichment",
+            "ModTemp",
+            "vmvf",
+            "VolUranium",
+            "TempRatio",
+            "FuelDist"
+        ]
+    },
+    {
+        "num_of_features": 5,
+        "feature_removed": "VolUranium",
+        "r2": 0.9968456817130649,
+        "RMSE": 0.01041503592864689,
+        "MSE": 0.00010863138456172635,
+        "MAE": 0.007842971868171986,
+        "all_features": [
+            "Enrichment",
+            "ModTemp",
+            "vmvf",
+            "TempRatio",
+            "FuelDist"
+        ]
+    },
+    {
+        "num_of_features": 4,
+        "feature_removed": "FuelDist",
+        "r2": 0.9902461835536223,
+        "RMSE": 0.018324336086513803,
+        "MSE": 0.00033597727311412604,
+        "MAE": 0.014226334658701618,
+        "all_features": [
+            "Enrichment",
+            "ModTemp",
+            "vmvf",
+            "TempRatio"
+        ]
+    },
+    {
+        "num_of_features": 3,
+        "feature_removed": "TempRatio",
+        "r2": 0.9886064315399506,
+        "RMSE": 0.019809037151957403,
+        "MSE": 0.0003924371269245893,
+        "MAE": 0.015587342426404652,
+        "all_features": [
+            "Enrichment",
+            "ModTemp",
+            "vmvf"
+        ]
+    },
+    {
+        "num_of_features": 2,
+        "feature_removed": "ModTemp",
+        "r2": 0.9652134861794732,
+        "RMSE": 0.03461067736355935,
+        "MSE": 0.0011988157087074313,
+        "MAE": 0.025872992676453578,
+        "all_features": [
+            "Enrichment",
+            "vmvf"
+        ]
+    },
+    {
+        "num_of_features": 1,
+        "feature_removed": "vmvf",
+        "r2": 0.60296435799478,
+        "RMSE": 0.11693572296042068,
+        "MSE": 0.013674227039972568,
+        "MAE": 0.0963016506306312,
+        "all_features": [
+            "Enrichment"
+        ]
+    },
+    {
+        "time_taken": 153.0026240348816,
+        "model": "MLPRegressor"
+    }
+]

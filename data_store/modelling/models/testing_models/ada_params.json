@@ -1,0 +1,7 @@
+{
+    "estimator": null,
+    "learning_rate": 0.019149552579829414,
+    "loss": "exponential",
+    "n_estimators": 820,
+    "random_state": 9320
+}

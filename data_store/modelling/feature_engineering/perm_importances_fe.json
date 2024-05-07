@@ -1,0 +1,54 @@
+{
+    "model": {
+        "algo": "MLPRegressor(random_state=9320, verbose=1)",
+        "params": {
+            "activation": "relu",
+            "alpha": 0.0001,
+            "batch_size": "auto",
+            "beta_1": 0.9,
+            "beta_2": 0.999,
+            "early_stopping": false,
+            "epsilon": 1e-08,
+            "hidden_layer_sizes": [
+                100
+            ],
+            "learning_rate": "constant",
+            "learning_rate_init": 0.001,
+            "max_fun": 15000,
+            "max_iter": 200,
+            "momentum": 0.9,
+            "n_iter_no_change": 10,
+            "nesterovs_momentum": true,
+            "power_t": 0.5,
+            "random_state": 9320,
+            "shuffle": true,
+            "solver": "adam",
+            "tol": 0.0001,
+            "validation_fraction": 0.1,
+            "verbose": 1,
+            "warm_start": false
+        }
+    },
+    "metrics": {
+        "MSE": 0.00011569854441827218,
+        "RMSE": 0.010756325786172163,
+        "MAE": 0.008187659708757969,
+        "MAPE": 0.006496186305904619,
+        "R2": 0.9966491712548081,
+        "Max Error": 0.08869717039257297
+    },
+    "permutation_importances": {
+        "Enrichment": 1.3426018877528885,
+        "Pitch": 0.055731336392342554,
+        "FuelRad": 0.02350587117962593,
+        "FuelTemp": 0.198296271832073,
+        "ModTemp": 0.5141281268626555,
+        "ModDens": 0.42891221398509594,
+        "vmvf": 0.4129348497809075,
+        "VolUranium": 0.03130425140673439,
+        "U_vmvf": 0.4219359763929095,
+        "TempDiff": 0.04476508343929588,
+        "TempRatio": 0.03747402449339348,
+        "FuelDist": 0.2942831213723142
+    }
+}

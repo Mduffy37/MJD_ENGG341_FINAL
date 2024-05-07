@@ -1,0 +1,41 @@
+{
+    "model": {
+        "algo": "RandomForestRegressor(random_state=9320)",
+        "params": {
+            "bootstrap": true,
+            "ccp_alpha": 0.0,
+            "criterion": "squared_error",
+            "max_depth": null,
+            "max_features": 1.0,
+            "max_leaf_nodes": null,
+            "max_samples": null,
+            "min_impurity_decrease": 0.0,
+            "min_samples_leaf": 1,
+            "min_samples_split": 2,
+            "min_weight_fraction_leaf": 0.0,
+            "monotonic_cst": null,
+            "n_estimators": 100,
+            "n_jobs": null,
+            "oob_score": false,
+            "random_state": 9320,
+            "verbose": 0,
+            "warm_start": false
+        }
+    },
+    "metrics": {
+        "MSE": 0.0002050601225666145,
+        "RMSE": 0.014319920480457094,
+        "MAE": 0.01005250817289962,
+        "MAPE": 0.008254121352024316,
+        "R2": 0.994061106329007,
+        "Max Error": 0.12412399999999946
+    },
+    "feature_importances": {
+        "Enrichment": 0.6106899290861357,
+        "Pitch": 0.15521394453701096,
+        "FuelRad": 0.21329072098871507,
+        "FuelTemp": 0.005387956531291554,
+        "ModTemp": 0.008613981648435251,
+        "ModDens": 0.006803467208411562
+    }
+}

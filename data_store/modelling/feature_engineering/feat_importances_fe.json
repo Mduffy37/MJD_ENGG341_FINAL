@@ -1,0 +1,47 @@
+{
+    "model": {
+        "algo": "RandomForestRegressor(random_state=9320)",
+        "params": {
+            "bootstrap": true,
+            "ccp_alpha": 0.0,
+            "criterion": "squared_error",
+            "max_depth": null,
+            "max_features": 1.0,
+            "max_leaf_nodes": null,
+            "max_samples": null,
+            "min_impurity_decrease": 0.0,
+            "min_samples_leaf": 1,
+            "min_samples_split": 2,
+            "min_weight_fraction_leaf": 0.0,
+            "monotonic_cst": null,
+            "n_estimators": 100,
+            "n_jobs": null,
+            "oob_score": false,
+            "random_state": 9320,
+            "verbose": 0,
+            "warm_start": false
+        }
+    },
+    "metrics": {
+        "MSE": 5.37193207777768e-05,
+        "RMSE": 0.007329346545073224,
+        "MAE": 0.005252213070738368,
+        "MAPE": 0.004233285658910657,
+        "R2": 0.9984441961207082,
+        "Max Error": 0.06969400000000092
+    },
+    "feature_importances": {
+        "Enrichment": 0.6105455412581983,
+        "Pitch": 0.0003524584326873886,
+        "FuelRad": 0.00019746364463407525,
+        "FuelTemp": 0.0033466380689769638,
+        "ModTemp": 0.01016665092320893,
+        "ModDens": 0.004665543626230965,
+        "vmvf": 0.3515917497837143,
+        "VolUranium": 0.0001963027864789284,
+        "U_vmvf": 0.0006210965928064118,
+        "TempDiff": 0.0004812476474434986,
+        "TempRatio": 0.0004417599759334413,
+        "FuelDist": 0.017393547259686733
+    }
+}

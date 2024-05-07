@@ -1,0 +1,13 @@
+{
+    "C": 7.507722499429101,
+    "cache_size": 200,
+    "coef0": 0.0,
+    "degree": 2,
+    "epsilon": 0.012031265749121665,
+    "gamma": "auto",
+    "kernel": "rbf",
+    "max_iter": -1,
+    "shrinking": true,
+    "tol": 0.001,
+    "verbose": 1
+}

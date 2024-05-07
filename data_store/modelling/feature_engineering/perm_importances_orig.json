@@ -1,0 +1,48 @@
+{
+    "model": {
+        "algo": "MLPRegressor(random_state=9320, verbose=1)",
+        "params": {
+            "activation": "relu",
+            "alpha": 0.0001,
+            "batch_size": "auto",
+            "beta_1": 0.9,
+            "beta_2": 0.999,
+            "early_stopping": false,
+            "epsilon": 1e-08,
+            "hidden_layer_sizes": [
+                100
+            ],
+            "learning_rate": "constant",
+            "learning_rate_init": 0.001,
+            "max_fun": 15000,
+            "max_iter": 200,
+            "momentum": 0.9,
+            "n_iter_no_change": 10,
+            "nesterovs_momentum": true,
+            "power_t": 0.5,
+            "random_state": 9320,
+            "shuffle": true,
+            "solver": "adam",
+            "tol": 0.0001,
+            "validation_fraction": 0.1,
+            "verbose": 1,
+            "warm_start": false
+        }
+    },
+    "metrics": {
+        "MSE": 0.00013734607021093312,
+        "RMSE": 0.011719473973303286,
+        "MAE": 0.009058749695896177,
+        "MAPE": 0.0070525000563705096,
+        "R2": 0.9960222216933159,
+        "Max Error": 0.06588811801146766
+    },
+    "permutation_importances": {
+        "Enrichment": 1.3361746744475604,
+        "Pitch": 1.2554015517133479,
+        "FuelRad": 1.7652971750632698,
+        "FuelTemp": 0.0076567999367476046,
+        "ModTemp": 0.47519729499164365,
+        "ModDens": 0.5833313802870392
+    }
+}
